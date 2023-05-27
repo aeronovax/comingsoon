@@ -179,7 +179,7 @@ body,html,.hidden_overflow{ overflow: hidden !important; position: relative;}
 /*******************general stylesheet end*******************/
 .count-block {
     max-width: 1135px;
-    margin:30.8vh auto 7.4vh auto;
+    margin:18vh auto 7.4vh auto;
     padding: 0 15px;
 }
 ul {
@@ -229,18 +229,18 @@ body {
 }
 .countdown-row {
     position: relative;
-    margin:230px 0 100px 0;
+    margin:15vh 0 5.4vh 0;
     z-index:12;
 }
 .logo {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 65px;
+    margin-right: 60px;
 }
 .counting-row {
     display: inline-block;
     vertical-align: middle;
-    /* margin-top: -3px; */
+    margin-top: -8px;
     position: relative;
 }
 
@@ -426,12 +426,12 @@ only screen and (                min-resolution: 2dppx) and ( max-width: 2000px)
 
 .countdown-caption {
     margin-bottom: 15.4vh;
-    padding-left: 364px;
+    padding-left: 363px;
 }
 ._INVISIBLE_{ opacity: 0;}
 footer {
     padding-bottom: 0;
-    padding-left:364px;
+    padding-left:363px;
     position: relative;
     z-index: 18;
 }
@@ -446,7 +446,7 @@ footer {
         width:120px;
     }
     .count-block {
-        margin: 23vh auto 7.4vh auto;
+        margin: 18vh auto 7.4vh auto;
     }
 }
 @media screen and (max-width:1500px){
@@ -491,8 +491,8 @@ footer {
 }
 @media screen and (max-width:1280px){
     .logo {
-        margin-right: 120px;
-        margin-top: -8px;
+        margin-right: 60px;
+        /* margin-top: -8px; */
     }
     .slot-type {
         margin-right: 46px;
@@ -506,7 +506,7 @@ footer {
         z-index: 12;
     }
     .time-left-txt,footer {
-        padding-left: 283px;
+        padding-left: 363px;
         margin-bottom: 8vh ;
     }
     .countdown-caption.desktop{
@@ -514,19 +514,19 @@ footer {
         padding-left: 278px;
     }
     .count-block{
-        max-width: 890px;
+        max-width: 1049px;
     }
     .param {
         font-size: 17px;
     }
     .num {
         font-size: 60px;
-        width: 67px;
+        width: 68px;
         height: 47px;
         line-height: 48px;
     }
     .param {
-        font-size: 15px;
+        font-size: 26px;
     }
     .seconds-holder {
         width: 1188px;
@@ -732,11 +732,11 @@ svg.dark_digit{
         margin-right: 80px;
     }
     .slot-type {
-        margin-right: 60px;
+        margin-right: 42px;
     }
     .num {
-        font-size: 70px;
-        width: 79px;
+        font-size: 62px;
+        width: 72px;
         height: 52px;
         line-height: 52px;
     }
@@ -803,10 +803,10 @@ svg.dark_digit{
         right: 118px
     }
     .logo img {
-        width: 180px;
+        width: 300px;
     }
     .time-left-txt, .logo {
-        margin-bottom: 5vh;
+        margin-bottom: 3vh;
     }
     
 }
@@ -825,15 +825,15 @@ svg.dark_digit{
 }
 @media screen and (max-width: 800px) and (min-height: 1100px) and (max-height: 1280px){
     .count-block {
-        margin: 44% auto 6.4vh 25px;
+        margin: 20vh auto 6.4vh 25px;
     }
 }
 @media screen and (max-width: 800px){
     .middle-area {
-        margin-top: 80px;
+        margin: 200px auto 100px auto;
     }
     .seconds-holder {
-        right: 92px;
+        right: 145px;
     }
 }
 @media screen and (max-width: 798px){
@@ -841,25 +841,25 @@ svg.dark_digit{
         margin-top: 230px;
     }
     .seconds-holder {
-        right: 90px;
+        right: 112px;
     }
 }
 @media screen and (max-width:767px){
     .mob_logo.logo img {
-        width: 146px;
+        width: 200px;
     }
     .mob_logo {
-        margin-bottom: 18px;
+        margin: 20px auto 10px auto;
     }
     .time-left-txt {
-        margin-bottom: 56px;
-        font-size: 16px;
+        margin-bottom: 50px;
+        font-size: 24px;
     }
     .num {
-        height: 45px;
+        height: 30px;
         line-height: 45px;
-        font-size: 58.26px;
-        width: 65px;
+        font-size: 48px;
+        width: 60px;
     }
     .slot-type {
         margin-right: 0;
@@ -884,7 +884,7 @@ svg.dark_digit{
         -ms-transform: translateY(-41.8%);
         -o-transform: translateY(-41.8%);
         -moz-transform: translateY(-41.8%);
-        right: 50px;
+        right: 60px;
     }
     .social-row ul li {
         margin-right: 12px;
@@ -896,29 +896,29 @@ svg.dark_digit{
         font-size: 25px;
     }
     .param {
-        font-size: 17.6px;
+        font-size: 24px;
         position: relative;
-        top: 3px;
+        top: 9px;
     }
-    .countdown-caption h2{font-size: 22px; margin-bottom: 17px;}
-    .countdown-caption p{ font-size: 14px; width: auto;}
+    .countdown-caption h2{font-size: 30px; margin-bottom: 10px;}
+    .countdown-caption p{ font-size: 15px; width: 80%; line-height: 18px;}
     .countdown-row {
         margin: 0 auto 32px auto;
     }
     .countdown-caption {
-        margin-bottom: 3vh;
+        margin: 6vh auto 3vh auto;
     }
     .social-row {
-        margin-bottom: 26px;
+        /* margin-bottom: 26px; */
     }
     .slot-type:nth-child(2):after {
         content: "SEC";
         color: #c5a35b;
-        font-size: 17.6px;
+        font-size: 24px;
         position: absolute;
-        right: 8px;
-        top: 50%;
-        margin-top: -9px;
+        right: 10px;
+        /* top: 50%; */
+        margin-top: 10px;
     }
     .countdown-row:after {
         height: 559px;
@@ -947,7 +947,7 @@ svg.dark_digit{
         height: 89vh;
     }
     .middle-area{
-        margin-top: 0;
+        margin-top: 30px;
     }
 }
 
